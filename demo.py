@@ -13,5 +13,6 @@ Options:
 
 from docopt import docopt
 opt = docopt(__doc__)
+print(opt["<arg4>"])
 print(opt)
 print(type(opt))
